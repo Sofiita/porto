@@ -34,58 +34,149 @@
 
 }
 
-
-/* ----------------- 1600  -------------------- */
-
+/* -------------------- 1600 -------------------- */
 
 @media only screen and (max-width:1600px) {
 
 
 }
 
-
-/* ----------------- 1440 -------------------- */
-
+/* -------------------- 1440 -------------------- */
 
 @media only screen and (max-width:1440px) {
 
+	#clientes li {
+	    display: block;
+	    float: left;
+	    list-style: outside none none;
+	    padding: 35px;
+	}
+
 }
 
-
-/* ---------------- 1366  -------------------- */
-
+/* -------------------- 1366  -------------------- */
 
 @media only screen and (max-width:1366px) {
 
+	header > nav > ul > li > a {
+	    color: #000000;
+	    font-size: 20px;
+	    font-weight: lighter;
+	    margin-left: 50px;
+	    text-decoration: none;
+	    text-transform: lowercase;
+	}
+
+	h1 {
+	    color: #c80e06;
+	    font-size: 40px;
+	    font-weight: lighter;
+	    margin: 0 auto;
+	    padding: 100px;
+	}
+
+	#clientes li {
+	    display: block;
+	    float: left;
+	    list-style: outside none none;
+	    padding: 30px;
+	}
+
+	#montevideo > h3 {
+	    color: #c80e06;
+	    font-size: 20px;
+	}
+
+	#punta > h3 {
+	    color: #c80e06;
+	    font-size: 20px;
+	}
+
+	#contacto p {
+	    font-size: 18px;
+	    text-align: center;
+	}
 
 }
 
-
-/* ----------------- 1280  -------------------- */
-
+/* -------------------- 1280 -------------------- */
 
 @media only screen and (max-width:1280px) {
 
-	
+	header > nav > ul {
+	    float: right;
+	    margin: 90px 0 0;
+	    padding: 0;
+	}
+
+	#clientes li {
+	    display: block;
+	    float: left;
+	    list-style: outside none none;
+	    padding: 20px;
+	}
+
 }
 
-/* ----------------- 1250  -------------------- */
+/* -------------------- 1250 -------------------- */
 
 @media only screen and (max-width:1250px) {
 
+	#hero > p {
+	    color: #ffffff;
+	    font-size: 27px;
+	    font-weight: lighter;
+	    margin: 0 auto;
+	    padding: 300px 50px 100px;
+	    text-align: center;
+	}
+
+	#concepto > p {
+	    font-size: 22px;
+	    font-weight: lighter;
+	    line-height: 45px;
+	    margin: 0 auto;
+	    padding: 100px;
+	}
+
+	h1 {
+	    color: #c80e06;
+	    font-size: 35px;
+	    font-weight: lighter;
+	    margin: 0 auto;
+	    padding: 100px;
+	}
+
+	.half > p {
+	    font-size: 22px;
+	    font-weight: lighter;
+	    line-height: 45px;
+	    margin: 0 auto;
+	    padding: 100px;
+	}
+
+	.last > p {
+	    font-size: 22px;
+	    font-weight: lighter;
+	    line-height: 45px;
+	    margin: 0 auto;
+	    padding: 100px;
+	}
 
 }
 
-
-
-/* ----------------- 1152  -------------------- */
-
+/* -------------------- 1152 -------------------- */
 
 @media only screen and (max-width:1152px) {
 
+	#clientes li {
+	    display: block;
+	    float: left;
+	    list-style: outside none none;
+	    padding: 10px;
+	}
 
 }
-
 
 /* ----------------- 1024 -------------------- */
 
