@@ -1,0 +1,194 @@
+/* -------------------- 1920 -------------------- */
+
+@media only screen and (max-width:1920px) {
+
+	header > nav > ul {
+	    float: right;
+	    margin: 85px 0 0;
+	    padding: 0;
+	}
+
+	header > nav > ul > li > a {
+		color: #000000;
+		font-size: 25px;
+		font-weight: lighter;
+		margin-left: 50px;
+		text-decoration: none;
+		text-transform: lowercase;
+	}
+
+	#contacto p {
+	    font-size: 20px;
+	    text-align: center;
+	}
+
+	#montevideo > h3 {
+		color: #c80e06;
+		font-size: 25px;
+	}
+
+	#punta > h3 {
+		color: #c80e06;
+		font-size: 25px;
+	}
+
+}
+
+
+/* ----------------- 1600  -------------------- */
+
+
+@media only screen and (max-width:1600px) {
+
+
+}
+
+
+/* ----------------- 1440 -------------------- */
+
+
+@media only screen and (max-width:1440px) {
+
+}
+
+
+/* ---------------- 1366  -------------------- */
+
+
+@media only screen and (max-width:1366px) {
+
+
+}
+
+
+/* ----------------- 1280  -------------------- */
+
+
+@media only screen and (max-width:1280px) {
+
+	
+}
+
+/* ----------------- 1250  -------------------- */
+
+@media only screen and (max-width:1250px) {
+
+
+}
+
+
+
+/* ----------------- 1152  -------------------- */
+
+
+@media only screen and (max-width:1152px) {
+
+
+}
+
+
+/* ----------------- 1024 -------------------- */
+
+
+@media only screen and (max-width:1024px) {
+
+
+}
+
+
+/* ----------------- 1023  -------------------- */
+
+
+@media only screen and (max-width:1023px) {
+
+
+}
+
+
+/* ----------------- 980  -------------------- */
+
+
+@media only screen and (max-width: 980px){
+
+	
+}
+
+
+/* ----------------- 800  -------------------- */
+
+
+
+@media only screen and (max-width:800px) {
+
+
+}
+
+
+/* ------------- 810 mobile ------------------ */
+
+
+@media only screen and (max-width: 810px){
+
+
+}
+
+
+/* ------------- 768 mobile ------------------ */
+
+
+@media only screen and (max-width:768px) {
+
+
+}
+
+/* ------------- 767 mobile ------------------ */
+
+@media screen and (max-width: 767px){
+
+	
+}
+
+
+/* ------------- 568 mobile ------------------ */
+
+
+
+@media only screen and (max-width: 640px){
+
+
+}
+
+
+/* ------------- 639 mobile ------------------ */
+
+
+@media only screen and (max-width: 639px){
+
+
+}
+
+
+/* ------------- 480 mobile ------------------ */
+
+
+@media only screen and (max-width:480px){
+
+
+}
+
+
+
+/* ------------- 360 mobile ------------------ */
+
+
+@media only screen and (max-width: 360px){
+
+
+}
+
+/* ------------- 320 mobile ------------------ */
+
+@media only screen and (max-width:320px){
+
+
+}
