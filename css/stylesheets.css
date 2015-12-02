@@ -1,0 +1,256 @@
+/* LAYOUT */
+
+	body {
+		padding: 0;
+		margin: 0;
+		font-family: 'Source Sans Pro', sans-serif;
+		color: #000000;
+	}
+
+	header {
+		height: 150px;
+		padding: 10px 25px;
+		border-bottom: 5px solid #c80e06;
+	}
+
+	header > nav {
+		height: 150px;
+	}
+
+	header > nav > a {
+		float: left;
+	}
+
+	header > nav > a > img {
+		width: 300px;
+	}
+
+	header > nav > ul {
+		float: right;
+		padding: 0;
+		margin: 95px 0 0;
+	}
+
+	header > nav > ul > li {
+		float: left;
+		list-style: none;
+	}
+
+	header > nav > ul > li > a {
+		text-decoration: none;
+		color: #000000;
+		font-size: 18px;
+		font-weight: lighter;
+		text-transform: lowercase;
+		margin-left: 50px;
+	}
+
+	header > nav > ul > li > a:hover {
+		text-decoration: underline;
+	}
+
+/* HERO */
+
+	#hero {
+		height: 800px;
+		background-image: url("../images/img1.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	#hero > p {
+		padding: 300px 50px 100px;
+		margin: 0 auto;
+		font-size: 30px;
+		font-weight: lighter;
+		text-align: center;
+		color: #ffffff;
+	}
+
+/* CONCEPTO */
+
+	#concepto {
+		padding: 10px 25px;
+	}
+
+	#concepto > p {
+		font-size: 25px;
+		font-weight: lighter;
+		line-height: 45px;
+		margin: 0 auto;
+		padding: 100px;
+	}
+
+
+/* PROYECTOS */
+
+	#proyectos {
+		height: auto;
+	}
+
+	.half {
+		float: left;
+		width: 50%;
+		height: 800px;
+	}
+
+	.half > p {
+		font-size: 25px;
+		font-weight: lighter;
+		line-height: 45px;
+		margin: 0 auto;
+		padding: 100px;
+	}
+
+	.last {
+		float: right;
+		width: 50%;
+		height: 800px;	
+	}
+
+	h1 {
+	    color: #c80e06;
+	    font-size: 50px;
+	    font-weight: lighter;
+	    margin: 0 auto;
+	    padding: 100px;
+	}
+
+	.last > p {
+	    font-size: 25px;
+	    font-weight: lighter;
+	    line-height: 45px;
+	    margin: 0 auto;
+	    padding: 100px;
+	}
+
+	#proyecto1 {
+		background-image: url("../images/img5.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	#proyecto2 {
+		background-image: url("../images/img4.png");
+		background-repeat: no-repeat;
+		background-size: cover;		
+	}
+
+	#proyecto3 {
+		background-image: url("../images/img2.png");
+		background-repeat: no-repeat;
+		background-size: cover;		
+	}
+
+
+/* CLIENTES */
+
+	#clientes {
+	    float: left;
+	    padding: 250px;
+	}
+
+	#clientes > p {
+	    font-size: 25px;
+	    font-weight: lighter;
+	    text-align: center;
+	    line-height: 45px;
+	    margin: 0 auto;
+	    padding: 50px;
+	}
+
+	#logotipos {
+		margin: 0 auto;
+		float: left;
+	}
+
+	#logotipos > li {
+		float: left;
+		padding: 5px;
+		list-style: none;
+		display: block;
+	}
+
+/* CONTACTO */
+
+
+	#contacto {
+	    height: 250px;
+	    padding: 10px 25px;
+	}
+
+	#montevideo {
+		float: left;
+		width: 50%;
+		padding-bottom: 15px;
+		text-align: center;
+	}
+
+	#montevideo > h3 {
+		font-size: 18px;
+		color: #c80e06;
+	}
+
+	#montevideo > p {
+		font-size: 16px;
+	}
+
+	#montevideo > p > i {
+		padding-right: 5px;
+		font-size: 18px;
+		color: #c80e06;
+	}
+	
+	#punta {
+		float: right;
+		padding-bottom: 15px;		
+		width: 50%;
+		text-align: center;
+	}
+
+	#punta > h3 {
+		font-size: 18px;
+		color: #c80e06;
+	}
+
+	#punta > p {
+		font-size: 16px;
+	}
+	
+	#punta > p > i {
+		padding-right: 5px; 
+		font-size: 18px;
+		color: #c80e06;
+	}
+
+	#social {
+		width: 50%;
+		margin: 0 auto;
+		padding: 5px;
+		text-align: center;
+	}
+
+	#social a {
+		margin: 15px;
+		text-align: center;
+		text-decoration: none;
+		font-size: 20px;
+		color: #000000;
+	}
+
+	#social a:hover {
+		color: #c80e06;
+	}
+
+	#contacto p {
+		text-align: center;
+		font-size: 15px;
+	}
+
+
+
+
+
+
+	
+
