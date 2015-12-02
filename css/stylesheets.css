@@ -92,6 +92,7 @@
 		float: left;
 		width: 50%;
 		height: 800px;
+		margin: 50px 0;
 	}
 
 	.half > p {
@@ -106,6 +107,7 @@
 		float: right;
 		width: 50%;
 		height: 800px;	
+		margin: 50px 0;
 	}
 
 	h1 {
@@ -146,35 +148,33 @@
 /* CLIENTES */
 
 	#clientes {
-	    float: left;
-	    padding: 250px;
+		padding: 10px 25px;
 	}
 
 	#clientes > p {
-	    font-size: 25px;
-	    font-weight: lighter;
-	    text-align: center;
-	    line-height: 45px;
-	    margin: 0 auto;
-	    padding: 50px;
-	}
-
-	#logotipos {
+		font-size: 25px;
+		font-weight: lighter;
+		text-align: center;
+		line-height: 45px;
 		margin: 0 auto;
-		float: left;
 	}
 
-	#logotipos > li {
-		float: left;
-		padding: 5px;
-		list-style: none;
+	#clientes > ul {
 		display: block;
+		height: 200px;
+	}
+
+	#clientes li {
+	    display: block;
+	    float: left;
+	    list-style: outside none none;
+	    padding: 60px;
 	}
 
 /* CONTACTO */
 
-
 	#contacto {
+	    border-top: 5px solid #c80e06;
 	    height: 250px;
 	    padding: 10px 25px;
 	}
