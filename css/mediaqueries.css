@@ -38,7 +38,6 @@
 
 @media only screen and (max-width:1600px) {
 
-
 }
 
 /* -------------------- 1440 -------------------- */
@@ -196,7 +195,61 @@
 
 /* -------------------- 980 -------------------- */
 
-@media only screen and (max-width: 980px){
+@media only screen and (max-width: 980px) {
+
+}
+
+/* -------------------- 810 mobile -------------------- */
+
+@media only screen and (max-width: 810px) {
+
+	header > nav > ul {
+	    float: right;
+	    margin: 93px 0 0;
+	    padding: 0;
+	}
+
+	header > nav > ul > li > a {
+	    color: #000000;
+	    font-size: 18px;
+	    font-weight: lighter;
+	    margin-left: 45px;
+	    text-decoration: none;
+	    text-transform: lowercase;
+	}
+
+	h1 {
+	    color: #c80e06;
+	    font-size: 35px;
+	    font-weight: lighter;
+	    margin: 0 auto;
+	    padding: 50px;
+	}
+
+	.half > p {
+	    font-size: 22px;
+	    font-weight: lighter;
+	    line-height: 45px;
+	    margin: 0 auto;
+	    padding: 50px;
+	}
+
+	.last > p {
+	    font-size: 22px;
+	    font-weight: lighter;
+	    line-height: 45px;
+	    margin: 0 auto;
+	    padding: 50px;
+	}
+
+	#clientes img {
+	    width: 115px;
+	}
+
+	#clientes > ul {
+	    display: block;
+	    height: 100px;
+	}
 
 }
 
@@ -259,71 +312,285 @@
 
 }
 
-/* ------------- 810 mobile ------------------ */
-
-
-@media only screen and (max-width: 810px){
-
-
-}
-
-
-/* ------------- 768 mobile ------------------ */
-
+/* -------------------- 768 mobile -------------------- */
 
 @media only screen and (max-width:768px) {
 
+	header > nav > ul > li > a {
+	    color: #000000;
+	    font-size: 18px;
+	    font-weight: lighter;
+	    margin-left: 30px;
+	    text-decoration: none;
+	    text-transform: lowercase;
+	}
+
+	#clientes li {
+	    display: block;
+	    float: left;
+	    list-style: outside none none;
+	    padding: 5px;
+	}
 
 }
 
-/* ------------- 767 mobile ------------------ */
+/* -------------------- 767 mobile -------------------- */
 
-@media screen and (max-width: 767px){
-
+@media screen and (max-width: 767px) {
 	
 }
 
+/* -------------------- 640 mobile -------------------- */
 
-/* ------------- 568 mobile ------------------ */
+@media only screen and (max-width: 640px) {
 
+	header > nav > a > img {
+	    width: 200px;
+	}
 
+	header > nav > ul {
+	    float: right;
+	    margin: 55px 0 0;
+	    padding: 0;
+	}
 
-@media only screen and (max-width: 640px){
+	header > nav > ul > li > a {
+	    color: #000000;
+	    font-size: 18px;
+	    font-weight: lighter;
+	    margin-left: 20px;
+	    text-decoration: none;
+	    text-transform: lowercase;
+	}
 
+	header {
+	    border-bottom: 5px solid #c80e06;
+	    height: 90px;
+	    padding: 10px 25px;
+	}
+
+	h1 {
+	    color: #c80e06;
+	    font-size: 30px;
+	    font-weight: lighter;
+	    margin: 0 auto;
+	    padding: 50px;
+	}
+
+	.half > p {
+	    font-size: 20px;
+	    font-weight: lighter;
+	    line-height: 35px;
+	    margin: 0 auto;
+	    padding: 50px;
+	}
+
+	.last > p {
+	    font-size: 20px;
+	    font-weight: lighter;
+	    line-height: 35px;
+	    margin: 0 auto;
+	    padding: 50px;
+	}
+
+	#clientes > ul {
+	    display: block;
+	    height: 100px;
+	    padding: 0;
+	}
+
+	#clientes img {
+	    width: 105px;
+	}
+
+	#contacto p {
+	    font-size: 18px;
+	    font-weight: lighter;
+	    text-align: center;
+	}
 
 }
 
+/* -------------------- 639 mobile -------------------- */
 
-/* ------------- 639 mobile ------------------ */
-
-
-@media only screen and (max-width: 639px){
-
+@media only screen and (max-width: 639px) {
 
 }
 
+/* -------------------- 480 mobile -------------------- */
 
-/* ------------- 480 mobile ------------------ */
+@media only screen and (max-width:480px) {
 
+	header > nav > a > img {
+	    width: 150px;
+	}
 
-@media only screen and (max-width:480px){
+	header > nav > ul > li > a {
+	    color: #000000;
+	    font-size: 15px;
+	    font-weight: lighter;
+	    margin-left: 10px;
+	    text-decoration: none;
+	    text-transform: lowercase;
+	}
 
+	header > nav > ul {
+	    float: right;
+	    margin: 40px 0 0;
+	    padding: 0;
+	}
+
+	header {
+	    border-bottom: 5px solid #c80e06;
+	    height: 60px;
+	    padding: 10px 25px;
+	}
+
+	#hero > p {
+	    color: #ffffff;
+	    font-size: 25px;
+	    font-weight: lighter;
+	    margin: 0 auto;
+	    padding: 300px 50px 100px;
+	    text-align: center;
+	}
+
+	#concepto > p {
+	    font-size: 20px;
+	    font-weight: lighter;
+	    line-height: 40px;
+	    margin: 0 auto;
+	    padding: 100px;
+	}
+
+	h1 {
+	    color: #c80e06;
+	    font-size: 25px;
+	    font-weight: lighter;
+	    margin: 0 auto;
+	    padding: 40px;
+	}
+
+	.half > p {
+	    font-size: 18px;
+	    font-weight: lighter;
+	    line-height: 35px;
+	    margin: 0 auto;
+	    padding: 40px;
+	}
+
+	.last > p {
+	    font-size: 18px;
+	    font-weight: lighter;
+	    line-height: 35px;
+	    margin: 0 auto;
+	    padding: 40px;
+	}
+
+	#clientes > p {
+	    font-size: 20px;
+	    font-weight: lighter;
+	    line-height: 45px;
+	    margin: 0 auto;
+	    text-align: center;
+	}
 
 }
 
+/* -------------------- 360 mobile -------------------- */
 
+@media only screen and (max-width: 360px) {
 
-/* ------------- 360 mobile ------------------ */
+	header > nav > a > img {
+	    width: 270px;
+	}
 
+	header {
+	    border-bottom: 5px solid #c80e06;
+	    height: 200px;
+	    padding: 10px 25px;
+	}
 
-@media only screen and (max-width: 360px){
+	header > nav > ul {
+	    float: left;
+	    margin: 35px 0 0;
+	    padding: 0;
+	}
 
+	header > nav > ul > li > a {
+	    color: #000000;
+	    font-size: 15px;
+	    font-weight: lighter;
+	    margin-left: 9px;
+	    text-decoration: none;
+	    text-transform: lowercase;
+	}
+
+	#hero > p {
+	    color: #ffffff;
+	    font-size: 25px;
+	    font-weight: lighter;
+	    margin: 0 auto;
+	    padding: 200px 30px 100px;
+	    text-align: center;
+	}
+
+	#concepto > p {
+	    font-size: 17px;
+	    font-weight: lighter;
+	    line-height: 30px;
+	    margin: 0 auto;
+	    padding: 15px;
+	}
+
+	.half {
+	    float: left;
+	    height: 150px;
+	    margin: 50px 0;
+	    width: 50%;
+	}
+
+	.last {
+	    float: right;
+	    height: 150px;
+	    margin: 50px 0;
+	    width: 50%;
+	}
+
+	h1 {
+	    color: #c80e06;
+	    font-size: 15px;
+	    font-weight: lighter;
+	    margin: 0 auto;
+	    padding: 10px;
+	}
+
+	.last > p {
+	    font-size: 12px;
+	    font-weight: lighter;
+	    line-height: 17px;
+	    margin: 0 auto;
+	    padding: 10px;
+	}
+
+	.half > p {
+	    font-size: 12px;
+	    font-weight: lighter;
+	    line-height: 17px;
+	    margin: 0 auto;
+	    padding: 10px;
+	}
+
+	#clientes > ul {
+	    display: block;
+	    height: 150px;
+	    padding: 0;
+	}
 
 }
 
-/* ------------- 320 mobile ------------------ */
+/* -------------------- 320 mobile -------------------- */
 
-@media only screen and (max-width:320px){
-
+@media only screen and (max-width:320px) {
 
 }
